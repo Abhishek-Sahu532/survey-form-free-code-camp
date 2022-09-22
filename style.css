@@ -1,0 +1,80 @@
+body {
+  color: white;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREBO3zWer3_XOJ_oYfw2p3n6kejhUvVA3Wgg&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  font-family: Roboto, sans-serif;
+  
+}
+.heading {
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+
+.form-section {
+  width: 50%;
+  margin:10px 25% 10px 25% ;
+  padding: 20px;
+
+}
+#survey-form {
+  background-color: rgba(146, 142, 147, 0.5);
+  display: block;
+  position: absolute;
+font-size: 15px;
+  box-sizing: border-box;
+  padding: 25px;
+  font-weight: bold;
+}
+
+#survey-form .form-grp {
+  margin: 10px;
+}
+
+#survey-form .form-grp #recommend{
+line-height: 5px;
+}
+#survey-form .form-grp #name,
+#email,
+#number,
+#textarea {
+  width: 90%;
+  padding: 8px;
+  margin: 15px;
+  border: 0;
+}
+
+select{
+  border-radius: 5px;
+  border: 0;
+}
+
+input,
+textarea {
+  border-radius: 5px;
+}
+
+label{
+  margin: 13px;
+}
+#survey-form .form-grp #dropdown {
+  width: 93%;
+  padding: 8px;
+  margin: 15px;
+  text-align: left;
+  justify-content: center;
+  justify-items: flex-end;
+}
+
+.form-grp #submit {
+  width: 93%;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  margin-left: 15px;
+  border: 0;
+  font-size: large;
+}
